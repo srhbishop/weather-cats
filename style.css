@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(#3A4853, #1369A0);
+    color: rgb(236, 235, 235);
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header h2 {
+    font-style: italic;
+    padding: 5px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2rem;
+
+}
+
+.results-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+#weather-report {
+    padding: 10px;
+    text-align: center;
+}
+
+input {
+    height: 2rem;
+    width: 300px;
+    font-size: 1.2rem;
+    border: #b65d68;
+}
+
+
+.cats-img {
+    width: 350px;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    padding: 2px;
+    margin: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 300px;
+    border: none;
+    border-radius: 1px;
+}
+
+.submit-btn:hover {
+    background-color: #b65d68;
+    transition: 1s;
+}

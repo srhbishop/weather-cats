@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@0;1&display=swap" rel="stylesheet">
+  <title>Weather Cats</title>
+</head>
+<body>
+
+  <div class="app">
+      <header>
+        <h1>Weather Cats</h1>
+        <h2>Your weather forecast...brought to you by cats</h2>
+      </header>
+      <main>
+          <div class="form-container">
+            <form id="city-form">
+              <div class="form-group">
+                <input type="text" id="city" placeholder="Enter your city here..." required>
+              </div>
+              <button class="submit-btn" type="submit">Check the weather!</button>
+            </form>
+          </div>
+          <div class="results-container">
+            <div id="weather-report">
+              <!--Weather API info goes here-->
+            </div>
+              <div class="opinion">
+                <img class="cats-img" src="https://i.chzbgr.com/full/6791312128/h708DD4E2/the-weather-is-going-to-be-thatweather">
+              </div>
+          </div>
+      </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
